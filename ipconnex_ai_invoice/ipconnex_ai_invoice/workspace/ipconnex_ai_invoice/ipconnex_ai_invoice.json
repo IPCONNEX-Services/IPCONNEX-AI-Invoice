@@ -1,0 +1,84 @@
+{
+  "charts": [],
+  "content": "[{\"id\":\"ipx-ai-inv-card-1\",\"type\":\"card\",\"data\":{\"card_name\":\"Tools\",\"col\":4}},{\"id\":\"ipx-ai-inv-card-2\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "is_default": 1,
+  "is_standard": 1,
+  "label": "IPCONNEX AI Invoice",
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "IPCONNEX AI Invoice",
+  "name": "IPCONNEX AI Invoice",
+  "owner": "Administrator",
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": "",
+  "roles": [
+    {
+      "role": "System Manager"
+    }
+  ],
+  "sequence_id": 1.0,
+  "shortcuts": [
+    {
+      "color": "Orange",
+      "format": "Open",
+      "label": "Invoice Import Tool",
+      "link_to": "Invoice Import Tool",
+      "type": "DocType"
+    },
+    {
+      "color": "Blue",
+      "format": "Open",
+      "label": "GPT Setting",
+      "link_to": "GPT Setting",
+      "type": "DocType"
+    }
+  ],
+  "links": [
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Tools",
+      "link_count": 0,
+      "name": "ipx-ai-inv-tools-section",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Invoice Import Tool",
+      "link_count": 0,
+      "link_to": "Invoice Import Tool",
+      "link_type": "DocType",
+      "name": "ipx-ai-inv-tool-link",
+      "onboard": 1,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Settings",
+      "link_count": 0,
+      "name": "ipx-ai-inv-settings-section",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "GPT Setting",
+      "link_count": 0,
+      "link_to": "GPT Setting",
+      "link_type": "DocType",
+      "name": "ipx-ai-inv-gpt-link",
+      "onboard": 0,
+      "type": "Link"
+    }
+  ]
+}

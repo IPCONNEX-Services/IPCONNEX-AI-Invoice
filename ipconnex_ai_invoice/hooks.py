@@ -20,6 +20,10 @@ doctype_js = {
 # Scheduled Tasks
 # ---------------
 
+fixtures = [
+    {"doctype": "Workspace", "filters": [["module", "=", "IPCONNEX AI Invoice"]]}
+]
+
 scheduler_events = {
 }
 
